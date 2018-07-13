@@ -29,8 +29,6 @@ public class Application extends WebMvcConfigurerAdapter implements CommandLineR
 
     @Override
     public void run(String... args) throws Exception {
-        logger.info("SpringBoot+MyBatis-Plus整合开发");
-        logger.info("SpringBoot整合MyBatis-Plus");
         logger.info("服务启动完成!");
     }
 
