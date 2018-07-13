@@ -29,7 +29,7 @@ public class Application extends WebMvcConfigurerAdapter implements CommandLineR
 
     @Override
     public void run(String... args) throws Exception {
-        logger.info("服务启动完成!");
+        logger.info("服务启动完成!"); 
     }
 
 }
