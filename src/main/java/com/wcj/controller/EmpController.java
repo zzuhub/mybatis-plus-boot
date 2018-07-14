@@ -26,7 +26,7 @@ public class EmpController {
 
 	@GetMapping("/say/{msg}")
 	public String sya(@PathVariable String msg) {
-		  return "<h1>Echo程序【"+msg+"】</h1>";
+		  return "<h1>ECHO程序【"+msg+"】</h1>";
 	}
 	
 	@GetMapping("/getEmp/{id}")
