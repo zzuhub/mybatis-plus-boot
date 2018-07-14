@@ -114,6 +114,11 @@
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
+            <!-- 辅助找到主程序 -->
+            <plugin>
+		  		<groupId>org.springframework.boot</groupId>
+		 		<artifactId>spring-boot-maven-plugin</artifactId>
+  	        </plugin> 			
 		</plugins>
 	</build>
 
